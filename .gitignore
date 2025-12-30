@@ -1,0 +1,51 @@
+# =========================
+# Python / Virtual Env
+# =========================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+.streamlit/config.toml
+
+# =========================
+# Database / Runtime Data
+# =========================
+data/siem.db
+data/*.db
+
+# =========================
+# Logs / Temporary Files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# VS Code / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Jupyter (if ever used)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS / Misc
+# =========================
+Thumbs.db
